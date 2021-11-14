@@ -1,0 +1,21 @@
+.market-value h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(14, 185, 51);
+}
+
+.marketingStrategy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.marketing-description p {
+  text-align: justify;
+  line-height: 35px;
+}
+@media only screen and (max-width: 688px) {
+  .marketingStrategy {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

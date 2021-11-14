@@ -1,0 +1,13 @@
+.explore {
+  background-color: rgb(188, 228, 188);
+  height: 500px;
+}
+
+.explore img {
+  height: 300px;
+}
+@media only screen and (max-width: 688px) {
+  .explore img {
+    width: 80%;
+  }
+}

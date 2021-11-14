@@ -1,0 +1,9 @@
+.reviewPage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.reviewPage {
+  background-color: rgb(188, 228, 188);
+  height: 250px;
+}

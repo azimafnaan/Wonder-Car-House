@@ -1,0 +1,36 @@
+.add-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.add-review h2 {
+  color: green;
+}
+.add-review form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 12px 12px 12px 12px rgba(12, 50, 90, 0.2);
+  width: 500px;
+}
+.add-review form input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.submit {
+  background-color: rgb(128, 182, 19);
+  color: black;
+}
+@media only screen and (max-width: 688px) {
+  .add-review form {
+    width: 100%;
+  }
+}

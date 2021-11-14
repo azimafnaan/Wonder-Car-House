@@ -1,0 +1,27 @@
+.footer-container a {
+  text-decoration: none;
+}
+.footer-section {
+  background-color: rgb(188, 228, 188);
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(14, 185, 51);
+  color: white;
+}
+.footer-form Button {
+  display: block;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 688px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
