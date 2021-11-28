@@ -29,6 +29,4 @@
   - Express Js
   - MongoDb
 
-- Server Site URL : https://github.com/programming-hero-web-course-4/niche-website-server-side-azimafnaan
-
-Client Site URL : https://github.com/programming-hero-web-course-4/niche-website-client-side-azimafnaan
+- Live Site Link : https://wonder-car-d782a.web.app/
